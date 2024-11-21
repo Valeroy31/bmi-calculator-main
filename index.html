@@ -7,8 +7,8 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-color:rgba(148, 81, 0, 0.87);
-            color: white;
+            background-color: rgb(254,255,254);
+          color:   rgb(143,89,112);
             
         }
         p{
@@ -27,7 +27,7 @@ div{
     color: white;
     border: none;
     outline: none;
-    background-color: rgba(0, 0, 0, 0.336);
+    background-color: rgba(0, 0, 0, 0.468);
     border-radius: 10px;
 }
 
@@ -39,11 +39,11 @@ div{
     color: white;
     border: none;
     outline: none;
-    background-color: rgba(0, 0, 0, 0.336);
+    background-color: rgba(0, 0, 0, 0.47);
     border-radius: 10px;
 }
 #check{
-    background-color: cornflowerblue;
+    background-color: rgb(253,4,142);
     color: white;
     font-weight: bold;
     border: none;
@@ -57,7 +57,7 @@ div{
 #check:hover{
     transform: scale(1.02);
     cursor: pointer;
-    background-color: rgba(100, 148, 237, 0.837);
+    background-color: rgba(253, 4, 141, 0.813);
     box-shadow:(10px 10px 5px lightblue);
     
 }
@@ -96,7 +96,7 @@ div{
    }
  
     else if (bodyMass < 18.5) {
-let underweight = `Your BMI is ${bodyMass}. You are underweight. Eat more Protein and lift weights, skinny ass nigga`
+let underweight = `Your BMI is ${bodyMass}. You are underweight. Eat more Protein and lift weights`
         return document.getElementById('result').innerHTML = underweight
     
     }
@@ -108,14 +108,14 @@ let normalweight = `Your BMI is ${bodyMass}. Your weight is normal`
     }
 
     else if (bodyMass >= 25 && bodyMass <= 29.9) {
-let overweight = `Your BMI is ${bodyMass}. You are overweight, fucking glutton`
+let overweight = `Your BMI is ${bodyMass}. You are overweight, glutton`
         return document.getElementById('result').innerHTML = overweight
     
     }
 
 
     else (bodyMass >= 25 && bodyMass <= 29.9) 
-let obese = `Your BMI is ${bodyMass}. Go check the door, heart attack's knocking, you obese fuck! Get a grip`
+let obese = `Your BMI is ${bodyMass}. Damn! You're obese haha`
         return document.getElementById('result').innerHTML = obese
     
     
